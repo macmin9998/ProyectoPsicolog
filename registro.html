@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario de Regitro</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/estilos-registro.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+         
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="javascript/autocompletar.js"></script>
+
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	</head>
+	<body>
+		<div class="contenedor">
+			<form action="enviar.php" method="post">
+				<h2>Registro</h2>
+				<center>
+					Sexo:
+					<select>
+						<option value="femenino">Femenino</option>
+  						<option value="masculino">Masculino</option>
+					</select>
+					<br>
+					<br>Edad:
+					<input type="text" name="edad" id="edad" size='3'>
+					<br>
+					<br>
+					Escolaridad:
+					<select>
+						<option value="Primaria">Primaria</option>
+  						<option value="Secuandaria">Secundaria</option>
+  						<option value="Secuandaria">Bachillerato</option>
+  						<option value="Secuandaria">Educación Superior</option>					
+					</select>
+					<br>
+					<br>
+					<br>
+					<br>
+					<div>
+  						<label for="tags">Ciudad De Origen: </label>
+  						<input id="tags">
+					</div>
+					<br>
+					<input type="submit" id="boton" name="boton">
+				</center>
+			</form>
+		</div>
+	</body>
+</html>

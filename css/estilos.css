@@ -1,0 +1,143 @@
+.barra{
+	background: #ff3019;
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+	clear: both;
+	height: 15px;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	padding: 6px;
+	border-radius: 4px;
+	max-width: 356px;
+	min-width: 20px;
+}
+
+/* A partir de aqui es solo cosmetico, lo puedes borrar */
+
+
+
+
+body{
+	background-image: url(bt.png);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+.fr{
+	float: right;
+}
+.fl, .votar{
+	float: left;
+}
+.cf{
+	clear: both;
+}
+.wrap{
+	padding: 25px;
+	margin: 0 auto;
+	width: 350px;
+	background: rgba(243,243,243,0.5);
+	border-radius: 5px;
+	margin-top: 70px;
+	border: 1px solid #E0E0E0;
+}
+
+.wrap_crea{
+	padding: 25px;
+	margin: 0 auto;
+	width: 600px;
+	background: rgba(243,243,243,0.5);
+	border-radius: 5px;
+	margin-top: 70px;
+	border: 1px solid #E0E0E0;
+}
+
+h1{
+	margin-bottom: 20px;
+	font-size: 21px;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 15px;
+	text-align: center;
+}
+form > div{
+	margin-bottom: 20px;
+}
+form .titulo{
+	margin-right: 20px;
+}
+form label{
+	display: block;
+}
+form input[type='text'], select{
+	border: 1px solid #E0E0E0;
+	padding: 6px;
+	resize: none;
+	text-align: center;
+}
+form input[type="submit"]{
+	padding: 8px 16px;
+	background: #31384A;;
+	border: 0;
+	display: block;
+	font-weight: bold;
+	color: white;
+	border-radius: 6px;
+}
+form input[type="submit"]:hover{
+	background: #505050;
+}
+ul.votacion{
+	margin-bottom: 25px;
+	list-style: none;
+}
+.votacion li{
+	padding: 8px;
+	background: #FCFCFC;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.votacion li:hover{
+	background: white;
+}
+.votacion li a{
+	color: gray;
+	font-weight: bold;
+	font-size: 16px;
+}
+.votacion li a:hover{
+	color: black;
+}
+.votacion li span{
+	margin-left: 10px;
+}
+.votacion .fl{
+	margin-bottom: 5px;
+}
+.volver{
+	display: block;
+	padding-top: 15px;
+	clear: both;
+}
+.resultado{
+	float: left;
+	margin-left: 10px;
+	margin-top: 7px;
+	color: black;
+}
+
+
+@media (max-width:480px){
+	.wrap{
+		width: 80%;
+	}
+
+
+
